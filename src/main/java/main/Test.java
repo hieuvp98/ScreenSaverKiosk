@@ -1,11 +1,11 @@
 package main;
 
-import swing.Swing;
+import swing.TestSwing;
 
 public class Test {
     public static void main(String[] args) {
-        Swing swing = new Swing("home");
-        swing.setVisible(true);
+        TestSwing testSwing = new TestSwing("home");
+        testSwing.setVisible(true);
     }
 
 }

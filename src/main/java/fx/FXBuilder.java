@@ -26,7 +26,7 @@ public class FXBuilder {
     private List<Image> images;
     private int next;
     private JFXPanel jfxPanel;
-    private static final int LOOP_TIME = 6000;
+    private static final int LOOP_TIME = 8000;
 
     public FXBuilder(JFXPanel jfxPanel){
         System.out.println("loading resource...");
@@ -45,7 +45,6 @@ public class FXBuilder {
         for (int i = 1; i >= 0; i--) {
             imageView[i] = new ImageView();
             imageView[i].setFitWidth(jfxPanel.getWidth());
-
             imageView[i].setFitHeight(jfxPanel.getHeight());
             root.getChildren().add(imageView[i]);
         }
